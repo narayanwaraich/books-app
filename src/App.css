@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+.book {
+  padding: 1rem;
+  border-bottom: 1px solid #dadada;
+  background-color: whitesmoke;
+}
+
+.book > * {
+  vertical-align: top;
+}
+
+.thumbnail {
+  display: inline-block;
+  width: 20%;
+}
+
+.content {
+  display: inline-block;
+  width:80%;
+  text-align: left;
+}
